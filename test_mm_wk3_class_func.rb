@@ -14,6 +14,7 @@ class TestMMWK3CLASSFunction < Minitest::Test
 	def test_10_plus_10
 		assert_equal(20, add(10, 10))
 	end
-	
-
+	def test_5_plus_neg3
+		assert_equal(2, add(5, -3))
+	end
 end
