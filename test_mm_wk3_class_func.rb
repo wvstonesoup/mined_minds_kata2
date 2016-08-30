@@ -42,7 +42,11 @@ require_relative "division.rb"
 		assert_equal(6, divide(24, 4))
 	end
 	def test_10_by_0
-		assert_equal(0, divide(10, 0))
+		assert_equal("infinity", divide(10, 0))
 	end
+	def test_0_by_10
+		assert_equal(0, divide(0, 10))
+	end
+
 
 end
