@@ -41,5 +41,8 @@ require_relative "division.rb"
 	def test_24_by_4
 		assert_equal(6, divide(24, 4))
 	end
+	def test_10_by_0
+		assert_equal(0, divide(10, 0))
+	end
 
 end
