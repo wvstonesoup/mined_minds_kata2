@@ -6,7 +6,7 @@ class TestMMWK3CLASSFunction < Minitest::Test
 		assert_equal(1, 1)
 	end
 	def test_one_plus_one
-		assert_equal(2, add(1))
+		assert_equal(2, add(1, 1))
 	end
-	
+
 end

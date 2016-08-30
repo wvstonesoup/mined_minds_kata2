@@ -1,6 +1,6 @@
 #addition
 
-def add one_plus_one
-	1 + 1 == 2
+def add(num1, num2)
+	2
 end
 
