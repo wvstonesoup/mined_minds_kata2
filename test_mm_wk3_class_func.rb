@@ -28,6 +28,9 @@ require_relative "wk3_minus_func.rb"
 	def test_10_minus_5
 		assert_equal(5, minus(10, 5))
 	end
+	def test_24_minus_11
+		assert_equal(13, minus(24, 11))
+	end
 
 
 end
