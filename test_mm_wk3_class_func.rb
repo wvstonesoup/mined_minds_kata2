@@ -31,6 +31,15 @@ require_relative "wk3_minus_func.rb"
 	def test_24_minus_11
 		assert_equal(13, minus(24, 11))
 	end
+end
 
+class TestMMWK3CLASSFunctiondivide < Minitest::Test
+require_relative "division.rb"
+	def test_2_by_2
+		assert_equal(1, divide(2, 2))
+	end
+	def test_24_by_4
+		assert_equal(6, divide(24, 4))
+	end
 
 end
